@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:biome": {
+    "identifier": "sp:burning_earth_biome",
+    "components": {
+      "minecraft:climate": {
+        "temperature": 2.0,
+        "downfall": 0.0,
+        "has_precipitation": false
+      },
+      "minecraft:surface_parameters": {
+        "top_material": "minecraft:basalt",
+        "mid_material": "minecraft:blackstone",
+        "deep_material": "minecraft:magma",
+        "foundation_material": "minecraft:deepslate"
+      },
+      "minecraft:vegetation": {
+        "distribution": []  // no vegetation; lava lakes are added via feature rules
+      },
+      "minecraft:surface_lava": {
+        "amount": 40   // density of lava lakes
+      },
+      "minecraft:surface_ore": {
+        "distribution": {
+          "minecraft:nether_quartz_ore": { "count": 10, "height": { "min": 0, "max": 64 } }
+          // add other ores if needed
+        }
+      }
+    }
+  }
+}

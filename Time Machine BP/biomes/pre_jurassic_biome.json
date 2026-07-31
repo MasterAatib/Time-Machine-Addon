@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:biome": {
+    "identifier": "sp:pre_jurassic_biome",
+    "components": {
+      "minecraft:climate": {
+        "temperature": 1.2,
+        "downfall": 0.8,
+        "has_precipitation": true
+      },
+      "minecraft:surface_parameters": {
+        "top_material": "minecraft:moss_block",
+        "mid_material": "minecraft:mud",
+        "deep_material": "minecraft:stone",
+        "foundation_material": "minecraft:stone"
+      },
+      "minecraft:vegetation": {
+        "distribution": [
+          {
+            "type": "minecraft:feature",
+            "feature": "minecraft:ferns_feature",   // can define custom feature in JSON
+            "density": 0.5
+          },
+          {
+            "type": "minecraft:feature",
+            "feature": "minecraft:tree_feature",
+            "density": 0.3
+          }
+        ]
+      }
+    }
+  }
+}

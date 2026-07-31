@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:dimension": {
+    "identifier": "sp:ice_age",
+    "generator": {
+      "type": "minecraft:noise",
+      "biome_source": {
+        "type": "fixed",
+        "biome": "sp:ice_age_biome"
+      },
+      "settings": "minecraft:overworld_generation"
+    },
+    "components": {
+      "minecraft:dimension_bounds": {
+        "min_y": -64,
+        "max_y": 320
+      },
+      "minecraft:dimension_sky": {
+        "fog_color": "#B0C4DE",    // blue fog
+        "sky_color": "#7F9DB5",
+        "cloud_color": "#D4E6F0",
+        "horizon_color": "#9AB0C4"
+      },
+      "minecraft:dimension_light": {
+        "base_light": 5,
+        "light_type": "minecraft:block"
+      }
+    }
+  }
+}

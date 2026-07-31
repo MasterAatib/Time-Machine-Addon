@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:biome": {
+    "identifier": "sp:ice_age_biome",
+    "components": {
+      "minecraft:climate": {
+        "temperature": -0.5,
+        "downfall": 1.0,
+        "has_precipitation": true,
+        "snow_accumulation": [1.0, 0.5]
+      },
+      "minecraft:surface_parameters": {
+        "top_material": "minecraft:snow_block",
+        "mid_material": "minecraft:packed_ice",
+        "deep_material": "minecraft:stone",
+        "foundation_material": "minecraft:stone"
+      },
+      "minecraft:vegetation": {
+        "distribution": []  // no trees; only ice and snow
+      }
+    }
+  }
+}
