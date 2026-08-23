@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Time Machine — Echoes of the Past [RP]",
+    "description": "Fog/atmosphere definitions and the Time Machine controller block's look.",
+    "uuid": "78c79f11-7f92-4737-add4-be080d6b59df",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 90]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "319251ba-a825-4dbc-9e66-e3b614ef5969",
+      "version": [1, 0, 0]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Time Machine — Echoes of the Past [BP]",
+    "description": "Custom-dimension time travel: hub controller, teleport manager, and 4 scripted timelines.",
+    "uuid": "a7fe0112-0940-4397-acae-c47f0505c98d",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 90]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "da08d66e-2313-4ed7-8002-8b48bbc5e365",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "f39f8fb8-4fd1-4dc6-8b5f-8d2d1f55e210",
+      "entry": "scripts/main.js",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "beta"
+    },
+    {
+      "uuid": "78c79f11-7f92-4737-add4-be080d6b59df",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "authors": ["you + Claude"]
+  }
+}

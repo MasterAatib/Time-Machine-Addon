@@ -1,0 +1,16 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "sp:pre_jurassic_fog"
+    },
+    "distance": {
+      "air": {
+        "fog_start": 12,
+        "fog_end": 70,
+        "color": "#7FA35A",
+        "render_distance_type": "fixed"
+      }
+    }
+  }
+}
